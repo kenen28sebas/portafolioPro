@@ -1,0 +1,97 @@
+@import url('fonts.css');
+
+.barra_led_info{
+    width: 100%;
+    height: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.presentacion__contenedorTituloNombre{
+    height: 600px;
+    width: 100%;
+    background-image:url('/img/150284-azul-estrella-espacio-via_lactea-la_astronomia-3840x2160.jpg'), linear-gradient(
+        to bottom,
+        #29245A 0%,
+        #29245a00 30%,     
+        #13112A 56%,     
+        rgba(0, 0, 0, 0.699) 90%   
+    );
+    background-blend-mode:overlay;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion__circuloDec{
+    background-image: linear-gradient(
+        to bottom,
+        #FF0000 0%,     
+        #13112A 52%,     
+        #000000 99%  
+        
+    );
+    height: 380px;
+    width: 380px;
+    border-radius: 360px;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    z-index: 0;
+}
+
+.presentacion__titulo{
+    text-align: center;
+    font-family: "nasa";
+    text-transform: uppercase;
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+    
+
+}
+
+.presentacion__nombre{
+    font-family: "nasa";
+    text-transform: uppercase;
+    font-size: 128px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+    margin-top:349px ;
+}
+
+.myinfo__titulo{
+    text-align: center;
+    font-family: "nasa";
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.myinfo__contenedorInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    padding-bottom: 50px;
+    box-sizing: content-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562) 20%,#4c007d);
+    color: #ffffff;
+    border-bottom-right-radius: 360px;
+    border-bottom-left-radius: 360px;
+}
+
+.myinfo__texto{
+    width: 75%;
+    text-align: center;
+    font-family: "nasa";
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+}
+

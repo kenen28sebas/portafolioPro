@@ -1,0 +1,56 @@
+.experiencia{
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    justify-content: flex-end;
+}
+.skills{
+    width: 100vw;
+    height: 750px;
+}
+
+.experiencia__contenedor_titulo{
+    width: 750px;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(to left
+    ,
+    #000000 28%,     
+    #73166D 61%,     
+    #891381 80%,
+    #61055B 100%  
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__contenedor_titulo{
+    width: 750px;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,
+    #000000 28%,     
+    #73166D 61%,     
+    #891381 80%,
+    #61055B 100%  
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills__titulo{
+    font-family: "nasa";
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.experiencia__titulo{
+    font-family: "nasa";
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
