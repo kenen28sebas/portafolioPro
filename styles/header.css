@@ -11,7 +11,7 @@
 .presentacion__contenedorTituloNombre{
     height: 600px;
     width: 100%;
-    background-image:url('/img/150284-azul-estrella-espacio-via_lactea-la_astronomia-3840x2160.jpg'), linear-gradient(
+    background-image:url('../img/150284-azul-estrella-espacio-via_lactea-la_astronomia-3840x2160.jpg'), linear-gradient(
         to bottom,
         #29245A 0%,
         #29245a00 30%,     
